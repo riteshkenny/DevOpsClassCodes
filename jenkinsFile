@@ -3,7 +3,7 @@ pipeline{
       jdk 'java'
       maven 'maven'
   }
-  agent any
+  agent slave
   stages{    
     stage('checkout'){
       steps{       
